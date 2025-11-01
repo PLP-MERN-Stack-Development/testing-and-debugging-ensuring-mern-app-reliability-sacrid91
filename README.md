@@ -1,3 +1,36 @@
+# ------------------------------------
+# Testing and Debugging MERN Applications
+
+This assignment focuses on implementing comprehensive testing strategies for a MERN stack application, including unit testing, integration testing, and end-to-end testing, along with debugging techniques.
+
+## Testing Strategy
+
+### Unit Tests
+- **Client**: React components tested with React Testing Library
+  - Button component: Tests for rendering, variants, sizes, disabled state, click handlers, and custom props
+  - App component: Tests for state management, API interactions, and error handling
+- **Server**: Individual functions and modules tested in isolation
+  - Controller functions: Tests for business logic, error handling, and authorization
+  - Middleware: Tests for authentication and validation logic
+
+### Integration Tests
+- **Client**: Component integration tests (if applicable)
+- **Server**: API endpoint tests with Supertest and in-memory MongoDB
+  - Posts API: Comprehensive tests for CRUD operations, authentication, and authorization
+
+### End-to-End Tests
+- Critical user flows tested with Cypress
+  - Post workflow: Fetching and viewing posts
+  - Error handling scenarios
+  - Component interactions
+
+### Coverage
+- Current coverage: [Run `npm test` to see the report]
+- Screenshots of coverage reports are available in the `coverage/` directory after running tests.
+
+## File Structure
+
+# ------------------------------------
 # Testing and Debugging MERN Applications
 
 This assignment focuses on implementing comprehensive testing strategies for a MERN stack application, including unit testing, integration testing, and end-to-end testing, along with debugging techniques.
